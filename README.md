@@ -1,8 +1,72 @@
-# React + Vite
+# 🌸 Scentora – Perfume Store Website & Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Scentora**, a beautifully crafted digital presence for a luxury perfume brand. This project was developed as part of the **Web Masters Frontend Internship** challenge: *“The Fake Client – Website and Dashboard Design”*.
 
-Currently, two official plugins are available:
+## 🌟 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Scentora is a **fully responsive web application** that includes:
+
+- A modern, engaging **e-commerce website** for customers to explore and purchase perfumes.
+- A functional **admin dashboard** that allows seamless product and order management.
+
+This project mimics a real freelance experience, from understanding client needs to delivering a complete solution.
+
+---
+
+## 📋 Task Summary
+
+**Client Request:**  
+Build a complete solution (website + dashboard) for a perfume store. The project includes:
+
+**Selected Project Type:**  
+🎯 *Perfume Store Website*
+
+---
+
+**Website Wireframe Includes:**
+- Header with logo and navigation
+- Hero section with featured perfumes
+- Product showcase
+- Footer with quick links
+
+**Dashboard Wireframe Includes:**
+- Sidebar for navigation
+- Main content area (products, orders)
+- Forms for product add/edit
+- Tables for data display
+
+---
+
+## 💻 Tech Stack
+
+| Technology     | Usage                        |
+|----------------|------------------------------|
+| HTML5          | Structure & semantics        |
+| CSS3           | Custom styling & layout      |
+| JavaScript     | Interactivity                |
+| Bootstrap 5    | Responsive design framework  |
+| Axios          | HTTP requests for dashboard  |
+| JSON Server    | Simulated backend API        |
+| MUI + React    |  Dashboard components |
+
+---
+
+## 🌐 Website Features
+
+- ✅ Elegant landing page with perfume highlights
+- ✅ Responsive product cards with images and prices
+- ✅ Smooth scrolling and section transitions
+
+---
+
+## 🧠 Dashboard Features
+
+- ✅ Sidebar navigation (Dashboard / Products / Orders)
+- ✅ Product CRUD operations (Create, Read, Update, Delete)
+- ✅ Responsive tables with action buttons
+- ✅ Form validation and alerts
+
+---
+
+## 📂 Project Structure
+
