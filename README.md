@@ -68,5 +68,31 @@ Build a complete solution (website + dashboard) for a perfume store. The project
 
 ---
 
-## 📂 Project Structure
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- A modern browser (e.g., Chrome, Firefox)
+- [Node.js](https://nodejs.org/) (for JSON Server)
+- A local code editor (e.g., VS Code)
+
+---
+
+### 🔧 How to Set Up
+
+#### 1. Clone or Download the Project
+
+```bash
+git clone https://github.com/your-username/scentora.git
+cd scentora
+
+
+Step A: Install JSON Server (Only once)
+npm install -g json-server
+run Project  .. npm start
 
