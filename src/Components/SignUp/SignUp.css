@@ -1,0 +1,38 @@
+
+/* Full height and width section */
+.signup {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Split into two equal halves */
+.signup .row {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+/* Form side */
+.signup .col-xl-5 {
+  background-color: #f8f9fa; /* optional */
+  padding: 40px;
+  overflow-y: auto;
+}
+
+/* Image side */
+.signup .img {
+  height: 100%;
+  display: flex;
+ align-items: center;
+  justify-content: center;
+}
+
+.signup .img img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+.h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Tagesschrift", system-ui;
+
+}
+.h2 span{
+    color: #9c6f6f;
+}
+.header {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    background-image: url(./../../assets/h5.jpg);
+    background-size:cover;
+}
+.hcolor{
+    color: #9c6f6f;
+}
+.w-40{
+    width: 40%;
+
+}
+.header .caption h1{
+    font-size: 120px;
+    font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #9c6f6f;
+
+}
+.header .caption p ,.left p,.p{
+    color: #9c8282;
+}
+
+.homeCard .favourit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 40px !important;
+}
+.btn{
+    background-color: #9c6f6f !important;
+    border: none !important;
+}
+.outlined{
+    border:solid 1px #9c6f6f !important;
+}

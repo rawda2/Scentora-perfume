@@ -1,0 +1,18 @@
+.Nav{
+    color: #000000;
+
+    background-color: rgb(255, 255, 255) !important;
+
+}
+.Nav .logo,.Nav .logoName{
+    color: #9c6f6f !important;
+
+}
+ .menuItem{
+    color: #9c6f6f !important;
+    /* font-size: 30px !important; */
+}
+.bg{
+    color: #9c6f6f !important;
+
+}

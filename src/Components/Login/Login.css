@@ -1,0 +1,20 @@
+
+
+.login {
+    height: 100vh;
+
+}
+.login form{
+    border-radius: 5px;
+
+}
+ .row .left{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+ .right img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}

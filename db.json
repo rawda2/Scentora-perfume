@@ -1,0 +1,321 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Men",
+      "description": "Fragrances designed specifically for men, often with woody, spicy, and fresh notes."
+    },
+    {
+      "id": 2,
+      "name": "Women",
+      "description": "Elegant and luxurious fragrances crafted for women with floral and fruity tones."
+    },
+    {
+      "id": 3,
+      "name": "Unisex",
+      "description": "Gender-neutral perfumes with a balanced blend suitable for anyone."
+    },
+    {
+      "id": 4,
+      "name": "Luxury",
+      "description": "High-end, exclusive fragrances crafted with premium ingredients."
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Calvin Klein",
+      "location": "New York, USA",
+      "founded": "1968"
+    },
+    {
+      "id": 2,
+      "name": "Chanel",
+      "location": "Paris, France",
+      "founded": "1910"
+    },
+    {
+      "id": 3,
+      "name": "Dior",
+      "location": "Paris, France",
+      "founded": "1946"
+    },
+    {
+      "id": 4,
+      "name": "Versace",
+      "location": "Milan, Italy",
+      "founded": "1978"
+    },
+    {
+      "id": 5,
+      "name": " Saint Laurent",
+      "location": "Paris, France",
+      "founded": "1961"
+    },
+    {
+      "id": 6,
+      "name": "Gucci",
+      "location": "Florence, Italy",
+      "founded": "1921"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Euphoria",
+      "brandId": 1,
+      "description": "A fruity-floral fragrance with seductive pomegranate and orchid notes.",
+      "price": 65,
+      "size": "100ml",
+      "gender": "Women",
+      "rating": 4.6,
+      "stock": 20,
+      "imageUrl": "./src/assets/1.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 2,
+      "name": "Bleu de Chanel",
+      "brandId": 2,
+      "description": "A woody aromatic scent for the man who defies convention.",
+      "price": 95,
+      "size": "100ml",
+      "gender": "Men",
+      "rating": 4.8,
+      "stock": 15,
+      "imageUrl": "./src/assets/2.jpeg",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "La Vie Est Belle",
+      "brandId": 3,
+      "description": "A sweet, sophisticated fragrance with notes of iris and gourmand.",
+      "price": 85,
+      "size": "75ml",
+      "gender": "Women",
+      "rating": 4.9,
+      "stock": 25,
+      "imageUrl": "./src/assets/3.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Black Opium",
+      "brandId": 5,
+      "description": "Intense and energetic scent with coffee, vanilla, and white flowers.",
+      "price": 80,
+      "size": "90ml",
+      "gender": "Women",
+      "rating": 4.5,
+      "stock": 18,
+      "imageUrl": "./src/assets/5.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "name": "Gucci Bloom",
+      "brandId": 6,
+      "description": "Captures the spirit of modern women with tuberose and jasmine.",
+      "price": 75,
+      "size": "100ml",
+      "gender": "Women",
+      "rating": 4.4,
+      "stock": 22,
+      "imageUrl": "./src/assets/7.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 8,
+      "name": "Sauvage",
+      "brandId": 3,
+      "description": "Raw freshness with bergamot, pepper, and ambroxan.",
+      "price": 99,
+      "size": "100ml",
+      "gender": "Men",
+      "rating": 4.8,
+      "stock": 16,
+      "imageUrl": "./src/assets/8.jpeg",
+      "categoryId": 1
+    },
+    {
+      "id": 9,
+      "name": "N°5",
+      "brandId": 2,
+      "description": "Timeless, elegant floral aldehyde fragrance for women.",
+      "price": 110,
+      "size": "100ml",
+      "gender": "Women",
+      "rating": 4.6,
+      "stock": 12,
+      "imageUrl": "./src/assets/9.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 10,
+      "name": "Light Blue",
+      "brandId": 1,
+      "description": "Sparkling citrus and apple notes for a breezy Mediterranean scent.",
+      "price": 60,
+      "size": "100ml",
+      "gender": "Women",
+      "rating": 4.3,
+      "stock": 30,
+      "imageUrl": "./src/assets/10.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 11,
+      "name": "L'Homme",
+      "brandId": 5,
+      "description": "Woody spicy fragrance with cardamom and cedarwood.",
+      "price": 78,
+      "size": "100ml",
+      "gender": "Men",
+      "rating": 4.4,
+      "stock": 19,
+      "imageUrl": "./src/assets/11.jpeg",
+      "categoryId": 1
+    },
+    {
+      "id": 13,
+      "name": "Libre",
+      "brandId": 5,
+      "description": "Bold floral scent blending lavender essence with orange blossom.",
+      "price": 85,
+      "size": "90ml",
+      "gender": "Women",
+      "rating": 4.5,
+      "stock": 20,
+      "imageUrl": "./src/assets/13.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 15,
+      "name": "Flowerbomb",
+      "brandId": 4,
+      "description": "Explosive floral bouquet with jasmine, orange blossom, and patchouli.",
+      "price": 92,
+      "size": "100ml",
+      "gender": "Women",
+      "rating": 4.6,
+      "stock": 17,
+      "imageUrl": "./src/assets/15.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 18,
+      "name": "Infusion d'Iris",
+      "brandId": 6,
+      "description": "Powdery and elegant blend of iris, cedar, and orange blossom.",
+      "price": 88,
+      "size": "100ml",
+      "gender": "Women",
+      "rating": 4.4,
+      "stock": 14,
+      "imageUrl": "./src/assets/18.jpeg",
+      "categoryId": 2
+    },
+    {
+      "id": 20,
+      "name": "Chance Eau Tendre",
+      "brandId": 2,
+      "description": "Delicate and radiant floral-fruity fragrance for everyday wear.",
+      "price": 78,
+      "size": "100ml",
+      "gender": "Women",
+      "rating": 4.5,
+      "stock": 21,
+      "imageUrl": "./src/assets/20.jpeg",
+      "categoryId": 2
+    }
+  ],
+  "bestSales": [
+    1,
+    2,
+    4,
+    6,
+    10,
+    12
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "password": "alice123",
+      "phone": "01123456789"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "john123",
+      "phone": "01012345678"
+    },
+    {
+      "id": 1747236680217,
+      "name": "rawda",
+      "email": "rawda@gmail.com",
+      "password": "Rery123",
+      "phone": "01100241855"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productIds": [
+        1,
+        3
+      ],
+      "total": 150,
+      "status": "shipped",
+      "date": "2025-05-01"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productIds": [
+        2
+      ],
+      "total": 95,
+      "status": "shipped",
+      "date": "2025-05-07"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "productIds": [
+        2,
+        6
+      ],
+      "total": 200,
+      "status": "processing",
+      "date": "2025-05-07"
+    },
+    {
+      "userId": 1,
+      "productIds": [
+        5,
+        7,
+        8
+      ],
+      "total": 254,
+      "status": "cancelled",
+      "date": "2025-05-15T11:27:59.706Z",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "productIds": [
+        3,
+        2
+      ],
+      "total": 275,
+      "status": "processing",
+      "date": "2025-05-15T11:31:20.674Z",
+      "id": 5
+    }
+  ]
+}
