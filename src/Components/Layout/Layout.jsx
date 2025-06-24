@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import NavBar from '../Navbar/Navbar';
+import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 
 
@@ -13,7 +13,7 @@ export default function LayOut() {
  
   return (
     <>
-   {!noNavBarRoutes.includes(location.pathname)&& <NavBar/>}  
+   {!noNavBarRoutes.includes(location.pathname)&& <Navbar/>}  
       
       <Outlet />
    
