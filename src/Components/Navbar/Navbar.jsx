@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
-import "./NavBar.css";
+import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 import { useCart } from "../CartContext";
 import Badge from "@mui/material/Badge";
@@ -22,7 +22,7 @@ import { UserContext } from "../Context/UserContext";
 const pages = ["Home", "Products", "Favourite"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-function NavBar() {
+function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const { cartItems } = useCart();
@@ -251,4 +251,4 @@ function NavBar() {
     </AppBar>
   );
 }
-export default NavBar;
+export default Navbar;
